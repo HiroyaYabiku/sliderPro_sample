@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="css/slider-pro.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="style.js"></script>
+  <script src="jquery.sliderPro.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+<script>
+  $(document).ready(function($) {
+      $('.halfImg').sliderPro({
+        width: 960,
+        height: 100,
+        autoHeight: true,
+        fade: true,
+        updateHash: true
+      });
+  });
+
+
+</script>
+</head>
+
+<body>
+
+
+  <div id="slider" class="slider-pro halfImg">
+    <div class="sp-slides">
+        <div class="sp-slide">
+            <a href="#"><img class="sp-image" src="img/mv.jpg"></a>
+        </div>
+    </div>
+    <div class="slider_text">slider-pro - sample page</div>
+  </div>
+
+
+
+<div class="reference">【参考サイト】<br>
+<a href="http://www.brightonline.jp/web/jquery/s13/" target="_blank">http://www.brightonline.jp/web/jquery/s13/</a>
+</div>
+
+</body>
+</html>
